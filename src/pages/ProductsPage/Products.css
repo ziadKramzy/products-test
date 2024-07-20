@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .carouselPage{
+    background-color: #020617;
+    color: white;
+    padding: 16px;
+  }
+ .carousel-container{
+  width: 100%;
+  height: 200px;
+  padding: 4px;
+  margin: 20x;
+  color: #020617;
+  
+ 
+  
+ }
+  .carouselItem {
+    text-align: start;
+    border: 2px solid #020617;
+    background-color: azure;
+    width: 90%;
+  }
+
+  .itemBody{
+    margin-left: 20px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: azure;
+  }
+
+  .checkMark{
+    margin-left: 15px;
+  }
+
+ 
+}
